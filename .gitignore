@@ -1,4 +1,31 @@
+# Environment
 .env
 venv/
+.venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Uploaded / generated files
+uploads/
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Generated documents
+*.docx
+*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
