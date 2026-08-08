@@ -34,3 +34,9 @@ An AI-powered Resume and Career Assistant built using Python, Streamlit, RAG, FA
 
 ```bash
 git clone https://github.com/adarsh-552/Multi-Agent-AI-Assistant.git
+
+
+
+## 🚀 Live Demo
+Try the deployed application:
+👉 [Multi-Agent AI Assistant](https://multi-agent-ai-assistant-brb5mp59shft8tsembunyw.streamlit.app/)
