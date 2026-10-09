@@ -1,31 +1,37 @@
-# Environment
+```gitignore
+# Environment and secrets
 .env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments
 venv/
 .venv/
 env/
 
 # Python cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
-# Uploaded / generated files
+# Uploaded and generated data
 uploads/
+vectorstore/
+memory.json
 
-# Streamlit
-.streamlit/
+# Streamlit config: keep config.toml, ignore secrets
+.streamlit/*
+!.streamlit/config.toml
+.streamlit/secrets.toml
 
-# VS Code
+# IDE
 .vscode/
-
-# PyCharm
 .idea/
 
 # Generated documents
 *.docx
-*.txt
 
 # OS files
 .DS_Store
 Thumbs.db
+```
