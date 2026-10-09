@@ -9,7 +9,7 @@ if a module is already imported, its live model name is used instead.
 import sys
 
 GPT_OSS = "openai/gpt-oss-20b"
-LLAMA = "llama-3.1-8b-instant"
+LLAMA =  "openai/gpt-oss-20b"
 
 AGENTS = [
     {
